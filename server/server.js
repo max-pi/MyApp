@@ -22,12 +22,12 @@ con.connect(function(err) {
 
 
 
-app.use(express.static(path.join(__dirname, "..", "public/build")));
+app.use(express.static(path.join(__dirname, "..", "build")));
 app.use(express.static("public"));
 
 
 app.use((req, res, next) => {
-  res.sendFile(path.join(__dirname, "..", "public/build", "index.html"));
+  res.sendFile(path.join(__dirname, "..", "build", "index.html"));
 });
 
 app.listen(port, hostname, () => {
