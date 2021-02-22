@@ -4,20 +4,22 @@ const express = require('express')
 const app = express()
 const path = require("path");
 
-var mysql = require('mysql');
-var con = mysql.createConnection({
-  socketPath : '/var/run/mysqld/mysqld.sock',
-  host: '134.122.34.37',
-  port: '80',
-  user: 'root',
-  password: 'GoodGuy1n',
-  database : 'aliens',
-  insecureAuth : false 
-});
-con.connect(function(err) {
-  if (err) throw err;
-  console.log("Database connected!");
-});
+//commented out because mysql is started in NickAPI
+
+// var mysql = require('mysql');
+// var con = mysql.createConnection({
+//   socketPath : '/var/run/mysqld/mysqld.sock',
+//   host: '134.122.34.37',
+//   port: '80',
+//   user: 'root',
+//   password: 'GoodGuy1n',
+//   database : 'aliens',
+//   insecureAuth : false 
+// });
+// con.connect(function(err) {
+//   if (err) throw err;
+//   console.log("Database connected!");
+// });
 
 
 

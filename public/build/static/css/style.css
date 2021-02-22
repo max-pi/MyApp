@@ -1,7 +1,8 @@
 /* Dropdown Button */
 .dropbtn {
     background-color: #3498DB;
-    color: white;
+    color: rgb(19, 44, 77);
+    text-shadow: 2px 2px 4px #0b0f3a;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -9,6 +10,9 @@
     float:left;
     z-index: -1;
     width: 120px;
+    position: fixed;
+    top: 60%;
+    left: 10%;
   }
   
   /* Dropdown button on hover & focus */
@@ -49,4 +53,3 @@
   
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
-

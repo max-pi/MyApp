@@ -19,7 +19,7 @@ class AlienPicture extends Component {
 
            </img>
            
-           <figcaption> {this.props.subtitle} </figcaption>
+           <figcaption> {this.props.alienId} </figcaption>
            </div>
            )
   } 

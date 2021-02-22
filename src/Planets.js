@@ -7,7 +7,7 @@ render()
 {
 return (
 <div>
-<h1>These are the planets</h1>
+<h2>These are the planets</h2>
 </div>
 )
 

@@ -45,3 +45,17 @@ body {
   color: teal;
   font-weight: 400;
 }
+
+
+h1 {
+  color: rgb(19, 44, 77);
+  text-shadow: 2px 2px 4px #0b0f3a;
+  position: fixed;
+  left: 10%;
+  top: 55%;
+}
+
+.button1 {
+color: green;
+
+}
